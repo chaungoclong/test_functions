@@ -1,0 +1,19 @@
+{
+    "name": "longtnt/api",
+    "description": "base api",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Longtnt\\Api\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dragon",
+            "email": "longcn@beetsoft.com.vn"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
