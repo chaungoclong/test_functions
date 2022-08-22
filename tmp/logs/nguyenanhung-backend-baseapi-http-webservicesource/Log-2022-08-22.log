@@ -1,0 +1,8 @@
+[2022-08-22 21:39:15 368368] Nguyenanhung\Backend\BaseAPI\Http\WebServiceSource::createOrUpdate.211.ERROR: Not found type with value 1 [] []
+[2022-08-22 21:39:34 567480] Nguyenanhung\Backend\BaseAPI\Http\WebServiceSource::createOrUpdate.166.ERROR: Not found source with id 2 [] []
+[2022-08-22 21:39:50 735122] Nguyenanhung\Backend\BaseAPI\Http\WebServiceSource::createOrUpdate.211.ERROR: Not found type with value 1 [] []
+[2022-08-22 21:39:57 496144] Nguyenanhung\Backend\BaseAPI\Http\WebServiceSource::createOrUpdate.211.ERROR: Not found type with value 2 [] []
+[2022-08-22 21:41:03 995138] Nguyenanhung\Backend\BaseAPI\Http\BaseHttp::checkUserSignature.315.ERROR: Sai chu ky xac thuc {"stringForEncode":"test$2$dsadsa$0$ok$abc$xyz$hippo_push$8b0e6c3d79bbbf70794b5992b81221dd","validSignature":"1d35b77d395928ff119ef3eb6841419c","inputSignature":"3d21bbc8f08db6065edfa20432ce09d8"} []
+[2022-08-22 21:42:12 962931] Nguyenanhung\Backend\BaseAPI\Http\WebServiceSource::show.127.ERROR: show source - Khong ton tai ban ghi tuong ung [] []
+[2022-08-22 21:42:25 963721] Nguyenanhung\Backend\BaseAPI\Http\BaseHttp::checkUserSignature.315.ERROR: Sai chu ky xac thuc {"stringForEncode":"2$hippo_push$hippo_push$8b0e6c3d79bbbf70794b5992b81221dd","validSignature":"cbeffbf5b4ac82f503b91fe61b10a7f9","inputSignature":"d96eb231353a21d721ef630b0af17097"} []
+[2022-08-22 21:42:25 964315] Nguyenanhung\Backend\BaseAPI\Http\WebServiceSource::show.114.ERROR: Sai chu ky xac thuc [] []

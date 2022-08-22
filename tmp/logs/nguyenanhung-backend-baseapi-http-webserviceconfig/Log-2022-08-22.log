@@ -1,0 +1,5 @@
+[2022-08-22 18:57:33 579754] Nguyenanhung\Backend\BaseAPI\Http\WebServiceConfig::show - line: 301.ERROR: Khong ton tai ban ghi tuong ung [] []
+[2022-08-22 18:57:40 764728] Nguyenanhung\Backend\BaseAPI\Http\WebServiceConfig::createOrUpdate - line: 143.ERROR: update config - Update that bai, data khong thay doi [] []
+[2022-08-22 18:57:51 185750] Nguyenanhung\Backend\BaseAPI\Http\WebServiceConfig::show - line: 279.ERROR: Sai chu ky xac thuc input signature: 7bf099a83e5e0a9b369724c3a85a3694 - valid signature: eab0ce1c63e396dc6282bcaff819643d [] []
+[2022-08-22 18:57:57 023672] Nguyenanhung\Backend\BaseAPI\Http\WebServiceConfig::show - line: 301.ERROR: Khong ton tai ban ghi tuong ung [] []
+[2022-08-22 18:58:27 241098] Nguyenanhung\Backend\BaseAPI\Http\WebServiceConfig::show - line: 279.ERROR: Sai chu ky xac thuc input signature: eab0ce1c63e396dc6282bcaff819643d - valid signature: 45330f04cab3a15694f0a74dc5b88db5 [] []

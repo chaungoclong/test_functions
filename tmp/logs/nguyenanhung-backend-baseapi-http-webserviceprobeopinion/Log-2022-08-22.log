@@ -1,0 +1,5 @@
+[2022-08-22 21:19:20 797032] Nguyenanhung\Backend\BaseAPI\Http\WebServiceProbeOpinion::createOrUpdate.189.ERROR: ["The <span class=\"gump-field\">Question<\/span> field is required","The <span class=\"gump-field\">Question Id<\/span> field is required"] [] []
+[2022-08-22 21:20:17 670828] Nguyenanhung\Backend\BaseAPI\Http\BaseHttp::checkUserSignature.315.ERROR: Sai chu ky xac thuc {"stringForEncode":"ok$dsadsa$1$0$$vi$0$hippo_push$8b0e6c3d79bbbf70794b5992b81221dd","validSignature":"4ca450740d88b7d220c48214543bbfc4","inputSignature":"0c5c11c565e11daeca7b94c52d8a2816"} []
+[2022-08-22 21:20:17 671286] Nguyenanhung\Backend\BaseAPI\Http\WebServiceProbeOpinion::createOrUpdate.250.ERROR: Sai chu ky xac thuc [] []
+[2022-08-22 21:20:31 183449] Nguyenanhung\Backend\BaseAPI\Http\BaseHttp::checkUserSignature.315.ERROR: Sai chu ky xac thuc {"stringForEncode":"ok$dsadsa$1$0$$vi$hippo_push$8b0e6c3d79bbbf70794b5992b81221dd","validSignature":"0c5c11c565e11daeca7b94c52d8a2816","inputSignature":"4ca450740d88b7d220c48214543bbfc4"} []
+[2022-08-22 21:20:31 184039] Nguyenanhung\Backend\BaseAPI\Http\WebServiceProbeOpinion::createOrUpdate.250.ERROR: Sai chu ky xac thuc [] []

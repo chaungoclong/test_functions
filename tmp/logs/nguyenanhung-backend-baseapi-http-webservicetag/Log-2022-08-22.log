@@ -1,0 +1,3 @@
+[2022-08-22 19:51:13 877442] Nguyenanhung\Backend\BaseAPI\Http\WebServiceTag::list - line: 256.ERROR: Sai chu ky xac thuc input signature: ecc61723be537bc62b6a5853aea979c0 - valid signature: 7a60472f3cafef354cf081565f983c6a [] []
+[2022-08-22 19:51:30 803658] Nguyenanhung\Backend\BaseAPI\Http\WebServiceTag::createOrUpdate - line: 136.ERROR: Sai chu ky xac thuc input signature: d72b9922d5dab9d2338b1469819a62de - valid signature: 9173910aaca32249bd3d9f6a1d6f61b2 [] []
+[2022-08-22 19:51:52 362334] Nguyenanhung\Backend\BaseAPI\Http\WebServiceTag::show - line: 322.ERROR: Sai chu ky xac thuc input signature: c795eb62d5cf66422eb442f7f9b3face - valid signature: 2ce3b6fc411fd58eb9aeed78fc2b280d [] []

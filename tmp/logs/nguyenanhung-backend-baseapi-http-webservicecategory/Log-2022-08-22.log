@@ -1,0 +1,6 @@
+[2022-08-22 18:38:21 654824] Nguyenanhung\Backend\BaseAPI\Http\WebServiceCategory::list - line: 244.ERROR: Sai chu ky xac thuc input signature: ecc61723be537bc62b6a5853aea979c0 - valid signature: 7a60472f3cafef354cf081565f983c6a [] []
+[2022-08-22 18:38:33 184344] Nguyenanhung\Backend\BaseAPI\Http\WebServiceCategory::createOrUpdate - line: 123.ERROR: Sai chu ky xac thuc input signature: dddc1c84d4f9f90a02543fad8d806e86 - valid signature: 89e48ed739801109cded86c182d83e9a [] []
+[2022-08-22 18:38:47 032991] Nguyenanhung\Backend\BaseAPI\Http\WebServiceCategory::createOrUpdate - line: 177.ERROR: Khong ton tai ban ghi tuong ung [] []
+[2022-08-22 18:38:51 818062] Nguyenanhung\Backend\BaseAPI\Http\WebServiceCategory::createOrUpdate - line: 177.ERROR: Khong ton tai ban ghi tuong ung [] []
+[2022-08-22 18:39:01 611124] Nguyenanhung\Backend\BaseAPI\Http\WebServiceCategory::show - line: 327.ERROR: show category - Khong ton tai ban ghi tuong ung [] []
+[2022-08-22 18:39:26 614884] Nguyenanhung\Backend\BaseAPI\Http\WebServiceCategory::show - line: 309.ERROR: Sai chu ky xac thuc input signature: c16a118d71b2999639f7204a20d35749 - valid signature: a4682951680521469d98ccab52222702 [] []
