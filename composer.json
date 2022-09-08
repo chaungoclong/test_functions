@@ -1,0 +1,19 @@
+{
+  "require": {
+    "slim/slim": "4.*",
+    "slim/psr7": "^1.5",
+    "beetsoftweb/bs-base-api-lite": "dev-main",
+    "chaungoclong/simple-benchmark": "@dev"
+  },
+  "repositories": [
+    {
+      "type": "github",
+      "url": "https://github.com/beetsoftweb/bs-base-api-lite",
+      "no-api": true
+    },
+    {
+      "type": "path",
+      "url": "/home/long/Documents/packages/simple-benchmark"
+    }
+  ]
+}

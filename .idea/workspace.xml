@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca9688bb-cc22-4353-98c2-f3365b4dfe52" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/phpfastcache/phpfastcache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/chaungoclong/simple-benchmark" />
+      <path value="$PROJECT_DIR$/vendor/mlocati/ip-lib" />
+      <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/markrogoyski/ipv4-subnet-calculator" />
+      <path value="$PROJECT_DIR$/vendor/hidehalo/nanoid-php" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/mobiledetect/mobiledetectlib" />
+      <path value="$PROJECT_DIR$/vendor/alchemy/zippy" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/number-helper" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/escape-helper" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/helpers" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/requests" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/telegram-messenger" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/base64-php-helper" />
+      <path value="$PROJECT_DIR$/vendor/wixel/gump" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/uuid-helper" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/mcrypt_compat" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/array-helper" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/http-download-helper" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/xml2json-helper" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/nusoap" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/slack" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/html-helper" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/date-helper" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/hashids-helper" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/security" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/database" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/database-helper" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/ip-helper" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-instagram" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/validation" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-client" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/mobile-helper" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-google" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/my-debug" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-github" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/nanoid-helper" />
+      <path value="$PROJECT_DIR$/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/password-helper" />
+      <path value="$PROJECT_DIR$/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/mysqli" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/zip-helper" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/slug-helper" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/filesystem-helper" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/monitor" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/string-helper" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/benchmark" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-facebook" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/filtered-helper" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-linkedin" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/mantis-connector" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/text-helper" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/xml-helper" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/json-helper" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/pdo" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/my-cache" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/math-helper" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/microsoft-teams-connector" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/bbcode-helper" />
+      <path value="$PROJECT_DIR$/vendor/nguyenanhung/uri-helper" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/conditionable" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/bus" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/pipeline" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/events" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/macroable" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/collections" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/vendor/jakeasmith/http_build_url" />
+      <path value="$PROJECT_DIR$/vendor/beetsoftweb/bs-base-api-lite" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/theseer/directoryscanner" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/ircmaxell/password-compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/hashids/hashids" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/sodium_compat" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/joshcam/mysqli-database-class" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/vendor/symfony/password-hasher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-xml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-json" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-escaper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-xml2json" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-math" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/faapz/pdo" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/stella-maris/clock" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/danielstjules/stringy" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/php-curl-class/php-curl-class" />
+      <path value="$PROJECT_DIR$/vendor/sebbmeyer/php-microsoft-teams-connector" />
+      <path value="$PROJECT_DIR$/vendor/fig/http-message-util" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2DYUaq8CojLoDCWbCs81W3oSCeb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/long/Documents/slim-api&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca9688bb-cc22-4353-98c2-f3365b4dfe52" name="Changes" comment="" />
+      <created>1660875577461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660875577461</updated>
+      <workItem from="1660875578817" duration="1309000" />
+      <workItem from="1660889344976" duration="5335000" />
+      <workItem from="1661413125355" duration="3901000" />
+      <workItem from="1661484532234" duration="1288000" />
+      <workItem from="1661504195363" duration="1343000" />
+      <workItem from="1661506275175" duration="603000" />
+      <workItem from="1661758621108" duration="635000" />
+      <workItem from="1661846720959" duration="4089000" />
+      <workItem from="1662453433359" duration="1142000" />
+      <workItem from="1662457113532" duration="597000" />
+      <workItem from="1662516137396" duration="2022000" />
+      <workItem from="1662522325696" duration="17000" />
+      <workItem from="1662604589576" duration="1414000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

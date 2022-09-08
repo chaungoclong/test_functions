@@ -1,0 +1,35 @@
+{
+    "name": "nguyenanhung/pdo",
+    "type": "library",
+    "description": "Database Wrapper - PDO Database Model",
+    "keywords": [
+        "database",
+        "sql",
+        "mysql",
+        "pdo"
+    ],
+    "homepage": "https://github.com/nguyenanhung/pdo",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Nguyen An Hung",
+            "email": "dev@nguyenanhung.com",
+            "homepage": "https://nguyenanhung.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "faapz/pdo": "^2.0 || ^1.12"
+    },
+    "require-dev": {
+        "nguyenanhung/my-debug": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "nguyenanhung\\PDO\\": "src/"
+        }
+    }
+}

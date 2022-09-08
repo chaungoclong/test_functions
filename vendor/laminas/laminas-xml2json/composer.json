@@ -1,0 +1,55 @@
+{
+    "name": "laminas/laminas-xml2json",
+    "description": "Provides functionality for converting XML to JSON, optionally including XML attributes",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "laminas",
+        "json",
+        "xml"
+    ],
+    "homepage": "https://laminas.dev",
+    "support": {
+        "docs": "https://docs.laminas.dev/laminas-xml2json/",
+        "issues": "https://github.com/laminas/laminas-xml2json/issues",
+        "source": "https://github.com/laminas/laminas-xml2json",
+        "rss": "https://github.com/laminas/laminas-xml2json/releases.atom",
+        "chat": "https://laminas.dev/chat",
+        "forum": "https://discourse.laminas.dev"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^7.3 || ^8.0",
+        "ext-simplexml": "*",
+        "laminas/laminas-json": "^3.1",
+        "laminas/laminas-xml": "^1.3"
+    },
+    "require-dev": {
+        "laminas/laminas-coding-standard": "^2.3",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laminas\\Xml2Json\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaminasTest\\Xml2Json\\": "test/"
+        }
+    },
+    "scripts": {
+        "check": [
+            "@cs-check",
+            "@test"
+        ],
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf",
+        "test": "phpunit --colors=always",
+        "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
+    },
+    "conflict": {
+        "zendframework/zend-xml2json": "*"
+    }
+}

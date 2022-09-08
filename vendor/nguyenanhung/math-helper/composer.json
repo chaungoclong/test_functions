@@ -1,0 +1,36 @@
+{
+    "type": "library",
+    "name": "nguyenanhung/math-helper",
+    "description": "Extend Math Helper from Laminas Math",
+    "keywords": [
+        "helper",
+        "math",
+        "php"
+    ],
+    "homepage": "https://github.com/nguyenanhung/math-helper",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Nguyen An Hung",
+            "email": "dev@nguyenanhung.com",
+            "homepage": "https://nguyenanhung.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "laminas/laminas-math": "^3"
+    },
+    "autoload": {
+        "psr-4": {
+            "nguyenanhung\\Libraries\\Math\\": "src/"
+        },
+        "files": [
+            "helpers/helpers.php"
+        ]
+    }
+}

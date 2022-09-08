@@ -1,0 +1,36 @@
+{
+    "name": "nguyenanhung/mantis-connector",
+    "type": "library",
+    "description": "Mantis Bug Tracker Connector",
+    "keywords": [
+        "php",
+        "mantis",
+        "bug",
+        "tracker",
+        "connector"
+    ],
+    "homepage": "https://github.com/nguyenanhung/mantis-connector",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Nguyen An Hung",
+            "email": "dev@nguyenanhung.com",
+            "homepage": "https://nguyenanhung.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "nguyenanhung/nusoap": "^0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "nguyenanhung\\MantisBT\\": "src/"
+        },
+        "files": [
+            "helpers/mantis.php"
+        ]
+    }
+}

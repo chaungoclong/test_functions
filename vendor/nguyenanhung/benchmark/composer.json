@@ -1,0 +1,33 @@
+{
+    "type": "library",
+    "name": "nguyenanhung/benchmark",
+    "description": "Basic and Advanced Database Helper",
+    "keywords": [
+        "helper",
+        "benchmark",
+        "php"
+    ],
+    "homepage": "https://github.com/nguyenanhung/benchmark",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Nguyen An Hung",
+            "email": "dev@nguyenanhung.com",
+            "homepage": "https://nguyenanhung.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "nguyenanhung\\Bear\\Benchmark\\": "src/"
+        },
+        "files": [
+            "helpers/helpers.php"
+        ]
+    }
+}

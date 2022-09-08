@@ -1,0 +1,34 @@
+{
+    "type": "library",
+    "name": "nguyenanhung/filtered-helper",
+    "description": "Filtered helper, library - Basic, Simple and Lightweight",
+    "keywords": [
+        "template",
+        "helper",
+        "library",
+        "php"
+    ],
+    "homepage": "https://github.com/nguyenanhung/filtered-helper",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Nguyen An Hung",
+            "email": "dev@nguyenanhung.com",
+            "homepage": "https://nguyenanhung.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "nguyenanhung/date-helper": "^2.0 || ^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "nguyenanhung\\Libraries\\Filtered\\": "src/"
+        },
+        "files": [
+            "helpers/helpers.php"
+        ]
+    }
+}

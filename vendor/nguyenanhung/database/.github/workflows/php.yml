@@ -1,0 +1,39 @@
+# GitHub Action for PHP Package Database Base Model Class by HungNG
+name: Testing PHP Package Database Base Model Class by HungNG
+on: [ push, pull_request ]
+jobs:
+    build:
+        strategy:
+            matrix:
+                operating-system: [ ubuntu-latest, windows-latest, macos-latest ]
+                php-versions: [ '7.1', '7.2', '7.3', '7.4', '8.0' ]
+        runs-on: ${{ matrix.operating-system }}
+        steps:
+            -   name: Checkout
+                uses: actions/checkout@v2
+            -   name: Setup PHP, with composer and extensions
+                uses: shivammathur/setup-php@v2 # From https://github.com/shivammathur/setup-php
+                with:
+                    php-version: ${{ matrix.php-versions }}
+                    extensions: mbstring, intl, curl, json, openssl, iconv, mysqli, pdo, pdo_mysql, pdo_sqlite
+                    coverage: xdebug #optional
+            -   name: Setup MariaDB Database
+                uses: ankane/setup-mariadb@v1
+                with:
+                    mariadb-version: 10.5
+                    database: test_database
+            -   name: Get composer cache directory
+                id: composercache
+                run: echo "::set-output name=dir::$(composer config cache-files-dir)"
+            -   name: Cache composer dependencies
+                uses: actions/cache@v2
+                with:
+                    path: ${{ steps.composercache.outputs.dir }}
+                    # Use composer.json for key, if composer.lock is not committed.
+                    # key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}
+                    key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+                    restore-keys: ${{ runner.os }}-composer-
+            -   name: Install dependencies
+                run: composer install --no-dev --ignore-platform-reqs --no-progress --prefer-dist --optimize-autoloader
+            #-   name: Test PHP Package Database
+            #    run: php ./sample/test/test.php

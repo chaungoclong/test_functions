@@ -1,0 +1,36 @@
+{
+    "type": "library",
+    "name": "nguyenanhung/escape-helper",
+    "description": "Light, Simple and Small Escape Helper",
+    "keywords": [
+        "helper",
+        "escape",
+        "php"
+    ],
+    "homepage": "https://github.com/nguyenanhung/escape-helper",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Nguyen An Hung",
+            "email": "dev@nguyenanhung.com",
+            "homepage": "https://nguyenanhung.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-ctype": "*",
+        "laminas/laminas-escaper": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "nguyenanhung\\Libraries\\Escape\\": "src/"
+        },
+        "files": [
+            "helpers/helpers.php"
+        ]
+    }
+}

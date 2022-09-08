@@ -1,0 +1,38 @@
+{
+    "name": "nguyenanhung/slack",
+    "description": "A simple PHP package for sending messages to Slack, with a focus on ease of use and elegant syntax. Includes Laravel support out of the box.",
+    "keywords": [
+        "laravel",
+        "slack"
+    ],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "maknz",
+            "email": "github@mak.geek.nz"
+        },
+        {
+            "name": "nguyenanhung",
+            "email": "dev@nguyenanhung.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^7.4.3 || ^6.5.6",
+        "ext-mbstring": "*",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "suggest": {
+        "illuminate/support": "Required for Laravel support"
+    },
+    "autoload": {
+        "psr-4": {
+            "nguyenanhung\\Slack\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

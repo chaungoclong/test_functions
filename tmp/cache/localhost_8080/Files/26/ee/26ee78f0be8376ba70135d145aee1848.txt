@@ -1,0 +1,1 @@
+a:6:{s:1:"k";s:48:"getUserSignature078cd59d1f0524a167cf79668e1dd682";s:1:"d";O:8:"stdClass":3:{s:8:"nickname";s:10:"hippo_push";s:9:"signature";s:3:"111";s:4:"role";i:1;}s:1:"e";O:8:"DateTime":3:{s:4:"date";s:26:"2022-08-29 14:42:29.223837";s:13:"timezone_type";i:3;s:8:"timezone";s:16:"Asia/Krasnoyarsk";}s:1:"g";a:0:{}s:1:"m";N;s:1:"c";N;}
